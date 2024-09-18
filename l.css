@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+	border: 3px solid #fff;
+	border-radius: 25px;
+	background-color: #000;
+	text-align: center;
+	padding: 20px;
+}
+
+#numero-anterior {
+    color: #aaa; /* Color para el número anterior, puedes cambiarlo si lo prefieres */
+    font-size: 7em; /* Tamaño del número anterior */
+    margin-bottom: 10px; /* Espacio entre el número anterior y el número actual */
+    user-select: none;
+}
+
+hr {
+	border: 2px solid #fff;
+	border-radius: 10px;
+	width: 100%;
+}
+
+#numero {
+	color: #fff;
+    font-size: 10em;
+    margin: 0;
+    user-select: none;
+}
